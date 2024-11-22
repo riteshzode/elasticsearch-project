@@ -1,8 +1,6 @@
-version: '3.8'
-
 services:
   elasticsearch:
-    image: custom-elasticsearch
+    image: riteshzode/my-es-image:latest
     ports:
       - "9200:9200"
       - "9300:9300"
